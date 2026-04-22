@@ -1,17 +1,10 @@
-这里是HTML注入示例，你可以在这个文件中添加自定义的HTML内容
-<!-- src/config/FooterConfig.html -->
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; font-size: 14px; padding: 10px 0;">
-    
-    <!-- 公安备案 -->
-    <a href="[http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33018302001998](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33018302001998)" target="_blank" style="display: flex; align-items: center; color: #749ae3; text-decoration: none;">
-        <!-- 这里的图片路径保留了您原来的配置，请确保您的 /public/img/ 目录下有这个图片 -->
-        <img src="/src/assets/images/beian.png" alt="公安徽标" style="width: 16px; height: 16px; object-fit: contain; margin-right: 4px;">
-        <span>浙公网安备33018302001998号</span>
-    </a>
-
-    <!-- ICP 备案 -->
-    <a href="[https://beian.miit.gov.cn/](https://beian.miit.gov.cn/)" target="_blank" style="color: #749ae3; text-decoration: none; margin-left: 20px;">
-        浙ICP备2026025454号
-    </a>
-    
+<div style="display: flex; justify-content: center; align-items: center; font-size: 13px; padding-top: 10px;">
+  <img src="/images/beian.png" style="width: 16px; height: 16px; object-fit: contain; margin-right: 4px;" alt="公安备案图标">
+  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33018302001998" target="_blank" style="color: rgb(116, 154, 227); text-decoration: none;">
+    浙公网安备33018302001998号
+  </a>
+  
+  <a href="https://beian.miit.gov.cn/" target="_blank" style="color: rgb(116, 154, 227); text-decoration: none; margin-left: 20px;">
+    浙ICP备2026025454号
+  </a>
 </div>
