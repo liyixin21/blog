@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
 	title: "liyixin的blog",
 
 	// 站点副标题
-	subtitle: "一个技术博客",
+	subtitle: "",
 
 	// 站点 URL
 	site_url: "https://www.liyixin.vip",
@@ -133,11 +133,11 @@ export const siteConfig: SiteConfig = {
 		// 番组计划页面开关，含追番、游戏、书籍和音乐，dev调试时只获取一页数据，build才会获取全部数据
 		bangumi: false,
 		// 相册页面开关
-		gallery: true,
+		gallery: false,
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
-	categoryBar: true,
+	categoryBar: false,
 
 	// 文章列表布局配置
 	postListLayout: {
@@ -169,9 +169,9 @@ export const siteConfig: SiteConfig = {
 	// 统计分析
 	analytics: {
 		// Google Analytics ID
-		googleAnalyticsId: "",
+		googleAnalyticsId: "G-FMP7V0T30X",
 		// Microsoft Clarity ID
-		microsoftClarityId: "",
+		microsoftClarityId: "wlf90ult8f",
 		// Umami 统计配置
 		umamiAnalytics: {
 			// Umami Website ID
